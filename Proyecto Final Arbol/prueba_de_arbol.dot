@@ -1,0 +1,9 @@
+digraph AVLTree {
+    node [shape=circle, fontname="Arial", fontsize=12];
+    edge [arrowhead=vee, arrowsize=0.8];
+    node_100 [label="100"];
+    null_left_100 [label="NULL", shape=point];
+    node_100 -> null_left_100 [label="L", style=dotted];
+    null_right_100 [label="NULL", shape=point];
+    node_100 -> null_right_100 [label="R", style=dotted];
+}
